@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tutorial de Fundamentos de HTML y CSS</title>
+    <style>
+        /* Estilo global */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #ADD8E6; /* Azul claro */
+            color: #000; /* Texto negro */
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Estilo del encabezado */
+        header {
+            background-color: #1E90FF; /* Azul más oscuro */
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        /* Estilo de títulos */
+        h1, h2, h3 {
+            margin: 10px 0;
+        }
+
+        /* Lista de temas */
+        #temas-contenedor {
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #FFFFFF; /* Fondo blanco */
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra suave */
+            max-width: 800px;
+        }
+
+        #temas-lista {
+            list-style-type: decimal;
+            padding: 0;
+            margin: 0;
+        }
+
+        #temas-lista li {
+            margin: 10px 0;
+        }
+
+        #temas-lista a {
+            color: #0000FF; /* Azul para los enlaces */
+            text-decoration: none;
+        }
+
+        #temas-lista a:hover {
+            text-decoration: underline;
+        }
+
+        /* Estilo para las secciones con flexbox */
+        .seccion {
+            display: flex; /* Establece flexbox para alinear elementos */
+            align-items: flex-start; /* Alinea los elementos al inicio del eje vertical */
+            margin: 20px auto;
+            padding: 10px;
+            background-color: #FFFFFF; /* Fondo blanco */
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra suave */
+            max-width: 800px;
+        }
+
+        .seccion img {
+            width: 100px;
+            margin-right: 20px; /* Espaciado entre la imagen y el texto */
+        }
+
+        .seccion p {
+            margin: 0;
+        }
+
+        /* Estilo del pie de página */
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #4682B4; /* Azul acero */
+            color: white;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Tutorial de Fundamentos de HTML y CSS</h1>
+        <p>En este tutorial aprenderás los conceptos básicos de HTML y CSS.</p>
+    </header>
+
+    <main>
+        <!-- Lista de temas dentro de un recuadro blanco -->
+        <section id="temas-contenedor">
+            <h2>Temas del Tutorial</h2>
+            <ol id="temas-lista">
+                <li><a href="#tema1">¿Qué es HTML?</a></li>
+                <li><a href="#tema2">Estructura básica de una página HTML</a></li>
+                <li><a href="#tema3">CSS: Estilizando HTML</a></li>
+                <li><a href="#tema4">Selectores en CSS</a></li>
+            </ol>
+        </section>
+
+        <!-- Sección 1 -->
+        <section id="tema1" class="seccion">
+            <img src="img/logo-html.png" alt="HTML Logo">
+            <div>
+                <h3>¿Qué es HTML?</h3>
+                <p>HTML es un lenguaje de marcado que se usa para estructurar y presentar contenido en la web.</p>
+            </div>
+        </section>
+
+        <!-- Sección 2 -->
+        <section id="tema2" class="seccion">
+            <img src="img/estructura.png" alt="Estructura HTML">
+            <div>
+                <h3>Estructura básica de una página HTML</h3>
+                <p>Una página HTML se compone de etiquetas como <code>&lt;html&gt;</code>, <code>&lt;head&gt;</code> y <code>&lt;body&gt;</code>, que organizan el contenido.</p>
+            </div>
+        </section>
+
+        <!-- Sección 3 -->
+        <section id="tema3" class="seccion">
+            <img src="img/logo-css.png" alt="CSS Logo">
+            <div>
+                <h3>CSS: Estilizando HTML</h3>
+                <p>CSS es un lenguaje de estilos que permite dar formato a las páginas HTML, cambiando colores, tamaños, márgenes, y más.</p>
+            </div>
+        </section>
+
+        <!-- Sección 4 -->
+        <section id="tema4" class="seccion">
+            <img src="img/selector.png" alt="Selectores CSS">
+            <div>
+                <h3>Selectores en CSS</h3>
+                <p>Los selectores en CSS permiten seleccionar elementos específicos de HTML para aplicarles estilos.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Creado por [Andrea Londoño].</p>
+    </footer>
+</body>
+</html>
+
+
+
+
+

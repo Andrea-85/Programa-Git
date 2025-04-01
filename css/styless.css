@@ -1,0 +1,42 @@
+/* Estilo global */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ADD8E6; /* Azul claro */
+    color: #000; /* Texto negro */
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo del encabezado */
+header {
+    background-color: #1E90FF; /* Azul más oscuro */
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Estilo de títulos */
+h1, h2, h3 {
+    margin: 10px 0;
+}
+
+/* Estilo de imágenes */
+img {
+    width: 100px;
+    display: block;
+    margin: 10px auto;
+}
+
+/* Estilo de pie de página */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #4682B4; /* Azul acero */
+    color: white;
+    margin-top: 20px;
+}
+
+
+
+
+
